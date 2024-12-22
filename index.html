@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="text-white">
+    <section id="home">
+        <header><img src="images/wraper.png" class="w-100 object-fit-cover " alt="wrapper"></header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg col-lg-9 col-md-7 mx-auto py-2 position-sticky top-0 z-2 ">
+            <div class="container ">
+                <h5 class=" text-white mb-0 navbar-brand text-uppercase "><img src="images/logo-sm.png" alt="logo"> Game
+                    reviews</h5>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">MMORPG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SHOOTER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SAILING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PERMADEATH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SUPERHERO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PIXEL</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div id="myRow" class="row g-4 py-4"></div>
+        </div>
+    </section>
+    <!-- details section -->
+    <section id="details" class=" d-none z-3 text-white pb-3">
+        <div class="container"></div>
+    </section>
+    <!-- loader -->
+    <div id="spinner" class="position-fixed z-3 d-none justify-content-center align-items-center ">
+        <span class="loader"></span>
+    </div>
+
+    <script type="module" src="JS/index.js"></script>
+
+</body>
+
+</html>
